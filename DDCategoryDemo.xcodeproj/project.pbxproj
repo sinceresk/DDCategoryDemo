@@ -14,6 +14,11 @@
 		0C3288711C196AD500662F45 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0C3288701C196AD500662F45 /* Images.xcassets */; };
 		0C3288741C196AD500662F45 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0C3288721C196AD500662F45 /* LaunchScreen.xib */; };
 		0C3288801C196AD500662F45 /* DDCategoryDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C32887F1C196AD500662F45 /* DDCategoryDemoTests.m */; };
+		0C3288A61C196AF700662F45 /* UIBarButtonItem+BMExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C32889D1C196AF700662F45 /* UIBarButtonItem+BMExtension.m */; };
+		0C3288A71C196AF700662F45 /* UIButton+BMExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C32889F1C196AF700662F45 /* UIButton+BMExtension.m */; };
+		0C3288A81C196AF700662F45 /* UIImageView+BMExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C3288A11C196AF700662F45 /* UIImageView+BMExtension.m */; };
+		0C3288A91C196AF700662F45 /* UILabel+BMExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C3288A31C196AF700662F45 /* UILabel+BMExtension.m */; };
+		0C3288AA1C196AF700662F45 /* UIView+DDExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C3288A51C196AF700662F45 /* UIView+DDExtension.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +45,17 @@
 		0C3288791C196AD500662F45 /* DDCategoryDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DDCategoryDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0C32887E1C196AD500662F45 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0C32887F1C196AD500662F45 /* DDCategoryDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DDCategoryDemoTests.m; sourceTree = "<group>"; };
+		0C32889B1C196AF700662F45 /* DDKitCategory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DDKitCategory.h; sourceTree = "<group>"; };
+		0C32889C1C196AF700662F45 /* UIBarButtonItem+BMExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIBarButtonItem+BMExtension.h"; sourceTree = "<group>"; };
+		0C32889D1C196AF700662F45 /* UIBarButtonItem+BMExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIBarButtonItem+BMExtension.m"; sourceTree = "<group>"; };
+		0C32889E1C196AF700662F45 /* UIButton+BMExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+BMExtension.h"; sourceTree = "<group>"; };
+		0C32889F1C196AF700662F45 /* UIButton+BMExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+BMExtension.m"; sourceTree = "<group>"; };
+		0C3288A01C196AF700662F45 /* UIImageView+BMExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImageView+BMExtension.h"; sourceTree = "<group>"; };
+		0C3288A11C196AF700662F45 /* UIImageView+BMExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImageView+BMExtension.m"; sourceTree = "<group>"; };
+		0C3288A21C196AF700662F45 /* UILabel+BMExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UILabel+BMExtension.h"; sourceTree = "<group>"; };
+		0C3288A31C196AF700662F45 /* UILabel+BMExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UILabel+BMExtension.m"; sourceTree = "<group>"; };
+		0C3288A41C196AF700662F45 /* UIView+DDExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+DDExtension.h"; sourceTree = "<group>"; };
+		0C3288A51C196AF700662F45 /* UIView+DDExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+DDExtension.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +97,7 @@
 		0C3288621C196AD500662F45 /* DDCategoryDemo */ = {
 			isa = PBXGroup;
 			children = (
+				0C32889A1C196AF700662F45 /* DDCategorys */,
 				0C3288671C196AD500662F45 /* AppDelegate.h */,
 				0C3288681C196AD500662F45 /* AppDelegate.m */,
 				0C32886A1C196AD500662F45 /* ViewController.h */,
@@ -117,6 +134,24 @@
 				0C32887E1C196AD500662F45 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		0C32889A1C196AF700662F45 /* DDCategorys */ = {
+			isa = PBXGroup;
+			children = (
+				0C32889C1C196AF700662F45 /* UIBarButtonItem+BMExtension.h */,
+				0C32889D1C196AF700662F45 /* UIBarButtonItem+BMExtension.m */,
+				0C32889E1C196AF700662F45 /* UIButton+BMExtension.h */,
+				0C32889F1C196AF700662F45 /* UIButton+BMExtension.m */,
+				0C3288A01C196AF700662F45 /* UIImageView+BMExtension.h */,
+				0C3288A11C196AF700662F45 /* UIImageView+BMExtension.m */,
+				0C3288A21C196AF700662F45 /* UILabel+BMExtension.h */,
+				0C3288A31C196AF700662F45 /* UILabel+BMExtension.m */,
+				0C3288A41C196AF700662F45 /* UIView+DDExtension.h */,
+				0C3288A51C196AF700662F45 /* UIView+DDExtension.m */,
+				0C32889B1C196AF700662F45 /* DDKitCategory.h */,
+			);
+			path = DDCategorys;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -219,9 +254,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0C3288AA1C196AF700662F45 /* UIView+DDExtension.m in Sources */,
+				0C3288A71C196AF700662F45 /* UIButton+BMExtension.m in Sources */,
 				0C32886C1C196AD500662F45 /* ViewController.m in Sources */,
+				0C3288A91C196AF700662F45 /* UILabel+BMExtension.m in Sources */,
+				0C3288A61C196AF700662F45 /* UIBarButtonItem+BMExtension.m in Sources */,
 				0C3288691C196AD500662F45 /* AppDelegate.m in Sources */,
 				0C3288661C196AD500662F45 /* main.m in Sources */,
+				0C3288A81C196AF700662F45 /* UIImageView+BMExtension.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

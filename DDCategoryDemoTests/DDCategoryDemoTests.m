@@ -2,8 +2,8 @@
 //  DDCategoryDemoTests.m
 //  DDCategoryDemoTests
 //
-//  Created by Daredos on 15/12/10.
-//  Copyright (c) 2015年 BlueMoon. All rights reserved.
+//  Created by Sincere on 15/7/13.
+//  Copyright (c) 2015年 cofortune. All rights reserved.
 //
 
 #import <UIKit/UIKit.h>
